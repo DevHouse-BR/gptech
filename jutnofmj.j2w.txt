@@ -1,0 +1,46 @@
+﻿new version
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   db/gptech.sql
+#	modified:   www/administrator/components/com_virtuemart/virtuemart.cfg.php
+#	deleted:    www/cache/mod_breadcrumbs/index.html
+#	deleted:    www/cache/mod_custom/index.html
+#	deleted:    www/cache/mod_jflanguageselection/index.html
+#	deleted:    www/cache/mod_mainmenu/index.html
+#	deleted:    www/cache/mod_product_categories/index.html
+#	deleted:    www/cache/mod_product_categories_gptech/index.html
+#	deleted:    www/cache/mod_rokslideshow/index.html
+#	deleted:    www/cache/mod_yoo_carousel/index.html
+#	deleted:    www/cache/mod_yoo_gallery/index.html
+#	deleted:    www/cache/mod_yoo_iecheck/index.html
+#	new file:   www/components/com_virtuemart/shop_image/category/Hidropneum__tico_4af9e10d7ab2b.jpg
+#	new file:   www/components/com_virtuemart/shop_image/category/Itens_Especiais_4af9e2b6c5a39.jpg
+#	new file:   www/components/com_virtuemart/shop_image/category/Pneum__tico_4af9e2469b556.jpg
+#	new file:   www/components/com_virtuemart/shop_image/category/Tog_L_Lock_4af9e14d128db.jpg
+#	new file:   www/components/com_virtuemart/shop_image/category/resized/Hidropneum__tico_4af9e10d68ba4_120x120.jpg
+#	new file:   www/components/com_virtuemart/shop_image/category/resized/Itens_Especiais_4af9e2b6b5e28_120x120.jpg
+#	new file:   www/components/com_virtuemart/shop_image/category/resized/Pneum__tico_4af9e2468ac50_120x120.jpg
+#	new file:   www/components/com_virtuemart/shop_image/category/resized/Tog_L_Lock_4af9e14d00bfc_120x120.jpg
+#	modified:   www/components/com_virtuemart/themes/default/templates/common/categoryChildlist.tpl.php
+#	modified:   www/configuration.php
+#	modified:   www/images/logo.png
+#	modified:   www/images/slides/01.jpg
+#	modified:   www/images/slides/01.txt
+#	modified:   www/images/slides/02.jpg
+#	modified:   www/images/slides/02.txt
+#	modified:   www/images/slides/03.jpg
+#	modified:   www/images/slides/03.txt
+#	modified:   www/images/slides/04.jpg
+#	modified:   www/images/slides/04.txt
+#	modified:   www/images/slides/05.jpg
+#	modified:   www/images/slides/05.txt
+#	modified:   www/images/slides/06.jpg
+#	modified:   www/images/slides/06.txt
+#	modified:   www/templates/gptech/css/layout.css
+#	modified:   www/templates/gptech/index.php
+#
+

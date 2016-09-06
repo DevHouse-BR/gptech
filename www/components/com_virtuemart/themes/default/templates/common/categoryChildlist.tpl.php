@@ -36,7 +36,7 @@ foreach( $categories as $category ) {
 					<div class="box-t3"></div>
 				</div>
 			</div>
-			<div style="min-height: 170px;" class="box-1 deepest with-header">
+			<div style="min-height: 240px;" class="box-1 deepest with-header">
 				<a title="<?=$cat_name?>" href="<?=$sess->purl($cat_link)?>">
 					<?php
 					if ( $category["category_thumb_image"] ) {

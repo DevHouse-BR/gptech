@@ -15,8 +15,8 @@ class JConfig {
 	var $gzip = '0';
 	var $error_reporting = '-1';
 	var $xmlrpc_server = '0';
-	var $log_path = 'C:\\ServidorWEB\\www\\gptech\\logs';
-	var $tmp_path = 'C:\\ServidorWEB\\www\\gptech\\tmp';
+	var $log_path = 'C:\\ServidorWEB\\www\\gptech\\www\\logs';
+	var $tmp_path = 'C:\\ServidorWEB\\www\\gptech\\www\\tmp';
 	var $live_site = '';
 	var $force_ssl = '0';
 	var $offset = '0';
@@ -50,7 +50,7 @@ class JConfig {
 	var $lifetime = '120';
 	var $session_handler = 'database';
 	var $password = 'vertrigo';
-	var $sitename = 'VOLMEC - Técnica Mecânica Ltda';
+	var $sitename = 'GPTECH - G. Provision Technology';
 	var $MetaDesc = 'Joomla! - O sistema dinâmico de portais e gerenciador de conteúdo';
 	var $MetaKeys = 'joomla, Joomla';
 	var $offline_message = 'Este site está em manutenção. Por favor, retorne mais tarde.';

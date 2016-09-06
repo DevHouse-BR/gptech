@@ -16,7 +16,7 @@ body {
 #header {
 	position: relative;
 	z-index: 9999;
-	height: 105px;
+	height: 95px;
 	clear: both;
 }
 
@@ -223,7 +223,7 @@ body.yoopage { background: #FAFAFA url(../images/page_bg_b.png) 0 100% repeat-x 
 }
 
 #headerbar {
-	height: 72px;
+	height: 62px;
 	padding-left: 220px;
 	overflow: hidden;
 }
@@ -249,14 +249,14 @@ body.yoopage { background: #FAFAFA url(../images/page_bg_b.png) 0 100% repeat-x 
 
 #menu {
 	position: absolute;
-	top: 77px;
+	top: 67px;
 	left: 20px;
 	z-index: 11;
 }
 
 #search {
 	position: absolute;
-	top: 72px;
+	top: 62px;
 	right: 0px;
 	z-index: 12;
 	width: 120px;

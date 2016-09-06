@@ -60,16 +60,16 @@ include_once(dirname(__FILE__).'/config.php');
 							</div>
 							<?php endif; ?>
 							
-							<?php //if($this->countModules('headerright')) : ?>
+							<?php if($this->countModules('headerright')) : ?>
 							<div class="right">
 								<jdoc:include type="yoomodules" name="headerright" style="yoo" />
 								<?php if($this->params->get('date')) : ?>
-									<div style="float:left; width:100%; text-align:right;color:white;position:absolute;margin-left:-220px;margin-top:50px">
+									<div style="float:left; width:100%; text-align:right;color:white;position:absolute;margin-left:-220px;margin-top:40px">
 										<?php echo JHTML::_('date', 'now', JText::_('DATE_FORMAT_LC')) ?>
 									</div>
 								<?php endif; ?>
 							</div>
-							<?php //endif; ?>
+							<?php endif; ?>
 							
 						</div>
 		

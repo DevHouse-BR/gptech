@@ -1,3 +1,3 @@
-EQUIPAMENTO XXX
+AIR-OIL CYLINDER FRAME
 http://localhost/gptech/lixo
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nunc lorem, semper venenatis pellentesque sit amet, porttitor vel lectus. Phasellus aliquam venenatis leo nec bibendum. Duis sed ultrices est. Mauris lorem ipsum, porttitor sit amet tristique id, aliquet eget ante. Pellentesque tincidunt mauris interdum neque porttitor sed scelerisque urna blandit.
+BTM Air/Oil Cylinders generate high forces with shop air pressure to perform various press operations. They can be used with many types of tooling, including Tog-L-Loc&reg;, Piercing, Riveting, Crimping, Stud insertion and Bending.These versatile cylinders can be mounted in floor or bench press frames, tool positioner units, hand operated units, special fixtures and work station.

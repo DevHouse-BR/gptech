@@ -32,8 +32,8 @@ else {
 	$app = '/';
 }
 // these path and url definitions here are based on the Joomla! Configuration
-define( 'URL', 'http://localhost/gptech/' );
-define( 'SECUREURL', 'http://localhost/gptech/' );
+define( 'URL', 'http://localhost/gptech/www/' );
+define( 'SECUREURL', 'http://localhost/gptech/www/' );
 
 if ( (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == '443' ) {
 	define( 'IMAGEURL', SECUREURL .'components/com_virtuemart/shop_image/' );
@@ -83,7 +83,7 @@ define('DOWNLOAD_MAX', '3');
 define('DOWNLOAD_EXPIRE', '432000');
 define('ENABLE_DOWNLOAD_STATUS', 'C');
 define('DISABLE_DOWNLOAD_STATUS', 'X');
-define('DOWNLOADROOT', 'C:\ServidorWEB\www\gptech/');
+define('DOWNLOADROOT', 'C:\ServidorWEB\www\gptech\www/');
 define('VM_DOWNLOADABLE_PRODUCTS_KEEP_STOCKLEVEL', '');
 define('_SHOW_PRICES', '');
 define('ORDER_MAIL_HTML', '1');
