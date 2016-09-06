@@ -1,0 +1,1601 @@
+INFO    ||--------------------------------------------------------------------------------
+INFO    ||JoomlaPack 2.3.1 (2009-08-19)
+INFO    ||Got backup?
+INFO    ||--------------------------------------------------------------------------------
+INFO    ||--- System Information ---
+INFO    ||PHP Version        :5.2.6
+INFO    ||OS Version         :Windows NT
+INFO    ||DB Version         :5.0.51b-community
+INFO    ||DB Collation       :utf8_general_ci
+INFO    ||Web Server         :Apache/2.0.63 (Win32) PHP/5.2.6
+INFO    ||PHP Interface      :apache2handler
+INFO    ||Joomla! version    :Joomla! 1.5.14 Stable [ Wojmamni Ama Naiki ] 30-July-2009 23:00 GMT
+INFO    ||Mozilla/5.0 (Windows; U; Windows NT 6.0; pt-BR; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729)
+INFO    ||Safe mode          :
+INFO    ||Display errors     :1
+INFO    ||Error reporting    :E_ERROR | E_WARNING | E_PARSE | E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_COMPILE_WARNING | E_USER_ERROR | E_USER_WARNING | E_USER_NOTICE
+INFO    ||Disabled functions :
+INFO    ||open_basedir restr.:
+INFO    ||Max. exec. time    :30
+INFO    ||Memory limit       :100M
+INFO    ||Current mem. usage :5112920
+INFO    ||GZIP Compression   : available (good)
+INFO    ||JPATH_BASE         :<root>\administrator
+INFO    ||JPATH_ROOT         :<root>
+INFO    ||JPATH_CACHE        :<root>\administrator\cache
+INFO    ||Output directory   :<root>\administrator\components\com_joomlapack\backup
+INFO    ||Temporary directory:<root>\tmp
+INFO    ||BASE64 Encoding    :Available; will be used for temp vars
+INFO    ||CUBEObject Storage :Temporary file
+INFO    ||--------------------------------------------------------------------------------
+INFO    ||JoomlaPack has detected the following potential problems:
+INFO    ||- 203 Default output directory in use (medium)
+INFO    ||- 401 ZIP format selected (low)
+INFO    ||You probably do not have to worry about them, but you should be aware of them.
+INFO    ||--------------------------------------------------------------------------------
+INFO    ||Loading profile #1
+INFO    ||JoomlaPack is starting a new full site backup
+DEBUG   ||Creating packer engine of type zip
+DEBUG   ||Trying to read engine setup data for packer
+DEBUG   ||Trying to include engine file engine.packer.zip
+DEBUG   ||Instanciating JoomlapackPackerZIP
+DEBUG   ||JoomlapackPackerZIP :: New instance
+DEBUG   ||Chunk size for CRC is now 49721880 bytes
+DEBUG   ||Archive template name: site-[HOST]-[DATE]-[TIME]
+DEBUG   ||Expanded template name: site-localhost-20090821-021338
+DEBUG   ||Archive template name: site-[HOST]-[DATE]-[TIME]
+DEBUG   ||Expanded template name: site-localhost-20090821-021338
+DEBUG   ||Calculated archive absolute path: <root>\administrator\components\com_joomlapack\backup\site-localhost-20090821-021338.zip
+DEBUG   ||Backup type is now set to 'full'
+DEBUG   ||Expanded archive file name: C:/ServidorWEB/www/gptech/administrator/components/com_joomlapack/backup/site-localhost-20090821-021338.zip
+DEBUG   ||Seeding archive with installer
+DEBUG   ||JoomlapackPackerZIP :: initialize - archive C:/ServidorWEB/www/gptech/administrator/components/com_joomlapack/backup/site-localhost-20090821-021338.zip
+DEBUG   ||JoomlapackPackerZIP :: CntDir Tempfile = <root>\tmp\jpz9939.tmp
+DEBUG   ||JoomlapackPackerZIP :: Killing old archive
+DEBUG   ||Saving CUBEObject instance
+INFO    ||Creating new CUBEObject storage file: <root>\tmp\jp993A.tmp
+DEBUG   ||JoomlapackCUBE::getInstance - Loading from database
+DEBUG   ||JoomlapackCUBE::getInstance - Loading from database
+DEBUG   ||====== Starting Step number 1 ======
+DEBUG   ||CUBE :: Domain 'init' has finished
+DEBUG   ||Next domain --> Installer deployment
+DEBUG   ||JoomlapackCUBEDomainInstaller :: New instance
+DEBUG   ||====== Finished Step number 1 ======
+DEBUG   ||Saving CUBEObject instance
+DEBUG   ||JoomlapackCUBE::getInstance - Loading from database
+DEBUG   ||JoomlapackCUBE::getInstance - Loading from database
+DEBUG   ||====== Starting Step number 2 ======
+DEBUG   ||Using smart algorithm for JoomlapackCUBEDomainInstaller
+DEBUG   ||Smart Stepping
+DEBUG   ||----- Finished operation 1 ------
+DEBUG   ||Initializing with JPA package 
+DEBUG   ||  Adding installation/js/jquery-ui.min.js; Next offset:11466
+DEBUG   ||  Virtual add:installation/js/jquery-ui.min.js (40324) - 8
+DEBUG   ||----- Finished operation 2 ------
+DEBUG   ||  Adding installation/js/jquery.blockUI.js; Next offset:16671
+DEBUG   ||  Virtual add:installation/js/jquery.blockUI.js (15137) - 8
+DEBUG   ||----- Finished operation 3 ------
+DEBUG   ||  Adding installation/js/install.js; Next offset:20727
+DEBUG   ||  Virtual add:installation/js/install.js (16113) - 8
+DEBUG   ||----- Finished operation 4 ------
+DEBUG   ||  Adding installation/js/jquery.min.js; Next offset:40500
+DEBUG   ||  Virtual add:installation/js/jquery.min.js (57254) - 8
+DEBUG   ||----- Finished operation 5 ------
+DEBUG   ||  Adding installation/index.php; Next offset:41656
+DEBUG   ||  Virtual add:installation/index.php (3208) - 8
+DEBUG   ||----- Finished operation 6 ------
+DEBUG   ||  Adding installation/css/img/header_bg.png; Next offset:43247
+DEBUG   ||  Virtual add:installation/css/img/header_bg.png (1531) - 8
+DEBUG   ||----- Finished operation 7 ------
+DEBUG   ||  Adding installation/css/img/logo.png; Next offset:44303
+DEBUG   ||  Virtual add:installation/css/img/logo.png (1001) - 8
+DEBUG   ||----- Finished operation 8 ------
+DEBUG   ||  Adding installation/css/img/busy.gif; Next offset:45729
+DEBUG   ||  Virtual add:installation/css/img/busy.gif (1608) - 8
+DEBUG   ||----- Finished operation 9 ------
+DEBUG   ||  Adding installation/css/img/btn_next.png; Next offset:47607
+DEBUG   ||  Virtual add:installation/css/img/btn_next.png (1819) - 8
+DEBUG   ||----- Finished operation 10 ------
+DEBUG   ||  Adding installation/css/img/btn_prev.png; Next offset:49491
+DEBUG   ||  Virtual add:installation/css/img/btn_prev.png (1825) - 8
+DEBUG   ||----- Finished operation 11 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-icons_469bdd_256x240.png; Next offset:54780
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-icons_469bdd_256x240.png (5399) - 8
+DEBUG   ||----- Finished operation 12 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png; Next offset:54971
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png (104) - 8
+DEBUG   ||----- Finished operation 13 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-icons_cd0a0a_256x240.png; Next offset:59217
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-icons_cd0a0a_256x240.png (4379) - 8
+DEBUG   ||----- Finished operation 14 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png; Next offset:59424
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png (124) - 8
+DEBUG   ||----- Finished operation 15 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-icons_217bc0_256x240.png; Next offset:63670
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-icons_217bc0_256x240.png (4379) - 8
+DEBUG   ||----- Finished operation 16 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-icons_6da8d5_256x240.png; Next offset:67915
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-icons_6da8d5_256x240.png (4379) - 8
+DEBUG   ||----- Finished operation 17 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-icons_d8e7f3_256x240.png; Next offset:72161
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-icons_d8e7f3_256x240.png (4379) - 8
+DEBUG   ||----- Finished operation 18 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-bg_glass_95_fef1ec_1x400.png; Next offset:72363
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-bg_glass_95_fef1ec_1x400.png (119) - 8
+DEBUG   ||----- Finished operation 19 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-icons_f9bd01_256x240.png; Next offset:76608
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-icons_f9bd01_256x240.png (4379) - 8
+DEBUG   ||----- Finished operation 20 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png; Next offset:76783
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png (88) - 8
+DEBUG   ||----- Finished operation 21 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-bg_flat_0_aaaaaa_40x100.png; Next offset:76968
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-bg_flat_0_aaaaaa_40x100.png (180) - 8
+DEBUG   ||----- Finished operation 22 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png; Next offset:80337
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png (3457) - 8
+DEBUG   ||----- Finished operation 23 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-bg_glass_85_dfeffc_1x400.png; Next offset:80543
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-bg_glass_85_dfeffc_1x400.png (123) - 8
+DEBUG   ||----- Finished operation 24 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-icons_2e83ff_256x240.png; Next offset:84789
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-icons_2e83ff_256x240.png (4379) - 8
+DEBUG   ||----- Finished operation 25 ------
+DEBUG   ||  Adding installation/css/redmond/images/ui-bg_flat_55_fbec88_40x100.png; Next offset:84977
+DEBUG   ||  Virtual add:installation/css/redmond/images/ui-bg_flat_55_fbec88_40x100.png (182) - 8
+DEBUG   ||----- Finished operation 26 ------
+DEBUG   ||  Adding installation/css/redmond/jquery-ui-redmond.css; Next offset:90149
+DEBUG   ||  Virtual add:installation/css/redmond/jquery-ui-redmond.css (27480) - 8
+DEBUG   ||----- Finished operation 27 ------
+DEBUG   ||  Adding installation/css/install.css; Next offset:91194
+DEBUG   ||  Virtual add:installation/css/install.css (3427) - 8
+DEBUG   ||----- Finished operation 28 ------
+DEBUG   ||  Adding installation/index.html; Next offset:92113
+DEBUG   ||  Virtual add:installation/index.html (1916) - 8
+DEBUG   ||----- Finished operation 29 ------
+DEBUG   ||  Adding installation/includes/utils.php; Next offset:92921
+DEBUG   ||  Virtual add:installation/includes/utils.php (1462) - 8
+DEBUG   ||----- Finished operation 30 ------
+DEBUG   ||  Adding installation/includes/storage.php; Next offset:94493
+DEBUG   ||  Virtual add:installation/includes/storage.php (4816) - 8
+DEBUG   ||----- Finished operation 31 ------
+DEBUG   ||  Adding installation/includes/output.php; Next offset:96526
+DEBUG   ||  Virtual add:installation/includes/output.php (5610) - 8
+DEBUG   ||----- Finished operation 32 ------
+DEBUG   ||  Adding installation/includes/translate.php; Next offset:97655
+DEBUG   ||  Virtual add:installation/includes/translate.php (2526) - 8
+DEBUG   ||----- Finished operation 33 ------
+DEBUG   ||  Adding installation/includes/output/index.php; Next offset:98435
+DEBUG   ||  Virtual add:installation/includes/output/index.php (2520) - 8
+DEBUG   ||----- Finished operation 34 ------
+DEBUG   ||  Adding installation/includes/output/setup.php; Next offset:100040
+DEBUG   ||  Virtual add:installation/includes/output/setup.php (5970) - 8
+DEBUG   ||----- Finished operation 35 ------
+DEBUG   ||  Adding installation/includes/output/dbsetup.php; Next offset:101175
+DEBUG   ||  Virtual add:installation/includes/output/dbsetup.php (3532) - 8
+DEBUG   ||----- Finished operation 36 ------
+DEBUG   ||  Adding installation/includes/output/finish.php; Next offset:101868
+DEBUG   ||  Virtual add:installation/includes/output/finish.php (1263) - 8
+DEBUG   ||----- Finished operation 37 ------
+DEBUG   ||  Adding installation/includes/db.php; Next offset:104441
+DEBUG   ||  Virtual add:installation/includes/db.php (9199) - 8
+DEBUG   ||----- Finished operation 38 ------
+DEBUG   ||  Adding installation/includes/logic/index.php; Next offset:106268
+DEBUG   ||  Virtual add:installation/includes/logic/index.php (4504) - 8
+DEBUG   ||----- Finished operation 39 ------
+DEBUG   ||  Adding installation/includes/logic/setup.php; Next offset:107355
+DEBUG   ||  Virtual add:installation/includes/logic/setup.php (2519) - 8
+DEBUG   ||----- Finished operation 40 ------
+DEBUG   ||  Adding installation/includes/logic/dbsetup.php; Next offset:109496
+DEBUG   ||  Virtual add:installation/includes/logic/dbsetup.php (6039) - 8
+DEBUG   ||----- Finished operation 41 ------
+DEBUG   ||  Adding installation/includes/logic/finish.php; Next offset:111386
+DEBUG   ||  Virtual add:installation/includes/logic/finish.php (4458) - 8
+DEBUG   ||----- Finished operation 42 ------
+DEBUG   ||  Adding installation/includes/logic/ajax.php; Next offset:112509
+DEBUG   ||  Virtual add:installation/includes/logic/ajax.php (3166) - 8
+DEBUG   ||----- Finished operation 43 ------
+DEBUG   ||  Adding installation/includes/logic/restore.php; Next offset:116869
+DEBUG   ||  Virtual add:installation/includes/logic/restore.php (13304) - 8
+DEBUG   ||----- Finished operation 44 ------
+DEBUG   ||  Adding installation/includes/configuration.php; Next offset:119375
+DEBUG   ||  Virtual add:installation/includes/configuration.php (6866) - 8
+DEBUG   ||----- Finished operation 45 ------
+DEBUG   ||  Adding installation/includes/ftp.php; Next offset:123145
+DEBUG   ||  Virtual add:installation/includes/ftp.php (13047) - 8
+DEBUG   ||----- Finished operation 46 ------
+DEBUG   ||  Adding installation/lang/en.ini; Next offset:125880
+DEBUG   ||  Virtual add:installation/lang/en.ini (5628) - 8
+DEBUG   ||----- Finished operation 47 ------
+DEBUG   ||  Adding installation/lang/fr.ini; Next offset:129052
+DEBUG   ||  Virtual add:installation/lang/fr.ini (7677) - 8
+DEBUG   ||----- Finished operation 48 ------
+DEBUG   ||  Adding installation/configuration.php-dist; Next offset:129702
+DEBUG   ||  Virtual add:installation/configuration.php-dist (1462) - 8
+DEBUG   ||----- Finished operation 49 ------
+DEBUG   ||Done
+DEBUG   ||Initializing with JPA package has finished
+DEBUG   ||JoomlapackCUBEDomainInstaller:: archive is initialized
+DEBUG   ||----- Finished operation 50 ------
+DEBUG   ||----- Finished operation 51 ------
+DEBUG   ||Successful Smart algorithm on JoomlapackCUBEDomainInstaller
+DEBUG   ||CUBE :: Domain 'installer' has finished
+DEBUG   ||Next domain --> Database backup
+DEBUG   ||JoomlapackCUBEDomainDBBackup :: New instance
+DEBUG   ||====== Finished Step number 2 ======
+DEBUG   ||Saving CUBEObject instance
+DEBUG   ||JoomlapackCUBE::getInstance - Loading from database
+DEBUG   ||JoomlapackCUBE::getInstance - Loading from database
+DEBUG   ||====== Starting Step number 3 ======
+DEBUG   ||Using smart algorithm for JoomlapackCUBEDomainDBBackup
+DEBUG   ||Smart Stepping
+DEBUG   ||JoomlapackCUBEDomainDBBackup :: Preparing instance
+DEBUG   ||----- Finished operation 1 ------
+DEBUG   ||JoomlapackCUBEDomainDBBackup :: Iterating next database
+DEBUG   ||Creating dumper engine of type default
+DEBUG   ||Trying to read engine setup data for dumper
+DEBUG   ||Trying to include engine file engine.dumper.default
+DEBUG   ||Instanciating JoomlapackDumperDefault
+DEBUG   ||JoomlapackDumperDefault :: New instance
+DEBUG   ||JoomlapackDumperDefault :: Processing parameters
+DEBUG   ||JoomlapackDumperDefault :: Retrieving db exclusion filters
+DEBUG   ||JoomlapackDumperDefault :: Retrieved db exclusion filters, OK.
+DEBUG   ||JoomlapackDumperDefault :: Finding tables to include in the backup set
+DEBUG   ||JoomlapackDumperDefault :: Core database
+DEBUG   ||JoomlapackDomainDBBackup :: SQL temp file is <root>\tmp\f0751d17
+DEBUG   ||JoomlapackDomainDBBackup :: SQL file location in archive is installation/sql/joomla.sql
+DEBUG   ||JoomlapackDomainDBBackup :: Deleting leftover files, if any
+DEBUG   ||JoomlapackDumperDefault :: Initializing algorithm for first run
+DEBUG   ||----- Finished operation 2 ------
+DEBUG   ||Rows on jos_banner : 2
+DEBUG   ||Dumping 2 rows of jos_banner
+DEBUG   ||----- Finished operation 3 ------
+DEBUG   ||Done with jos_banner
+DEBUG   ||----- Finished operation 4 ------
+DEBUG   ||Rows on jos_bannerclient : 1
+DEBUG   ||Dumping 1 rows of jos_bannerclient
+DEBUG   ||----- Finished operation 5 ------
+DEBUG   ||Done with jos_bannerclient
+DEBUG   ||----- Finished operation 6 ------
+DEBUG   ||Rows on jos_bannertrack : 0
+DEBUG   ||Done with jos_bannertrack
+DEBUG   ||----- Finished operation 7 ------
+DEBUG   ||Rows on jos_categories : 12
+DEBUG   ||Dumping 12 rows of jos_categories
+DEBUG   ||----- Finished operation 8 ------
+DEBUG   ||Done with jos_categories
+DEBUG   ||----- Finished operation 9 ------
+DEBUG   ||Rows on jos_components : 36
+DEBUG   ||Dumping 36 rows of jos_components
+DEBUG   ||----- Finished operation 10 ------
+DEBUG   ||Done with jos_components
+DEBUG   ||----- Finished operation 11 ------
+DEBUG   ||Rows on jos_contact_details : 2
+DEBUG   ||Dumping 2 rows of jos_contact_details
+DEBUG   ||----- Finished operation 12 ------
+DEBUG   ||Done with jos_contact_details
+DEBUG   ||----- Finished operation 13 ------
+DEBUG   ||Rows on jos_content : 16
+DEBUG   ||Dumping 16 rows of jos_content
+DEBUG   ||----- Finished operation 14 ------
+DEBUG   ||Done with jos_content
+DEBUG   ||----- Finished operation 15 ------
+DEBUG   ||Rows on jos_content_frontpage : 6
+DEBUG   ||Dumping 6 rows of jos_content_frontpage
+DEBUG   ||----- Finished operation 16 ------
+DEBUG   ||Done with jos_content_frontpage
+DEBUG   ||----- Finished operation 17 ------
+DEBUG   ||Rows on jos_content_rating : 0
+DEBUG   ||Done with jos_content_rating
+DEBUG   ||----- Finished operation 18 ------
+DEBUG   ||Rows on jos_core_acl_aro : 1
+DEBUG   ||Dumping 1 rows of jos_core_acl_aro
+DEBUG   ||----- Finished operation 19 ------
+DEBUG   ||Done with jos_core_acl_aro
+DEBUG   ||----- Finished operation 20 ------
+DEBUG   ||Rows on jos_core_acl_aro_groups : 11
+DEBUG   ||Dumping 11 rows of jos_core_acl_aro_groups
+DEBUG   ||----- Finished operation 21 ------
+DEBUG   ||Done with jos_core_acl_aro_groups
+DEBUG   ||----- Finished operation 22 ------
+DEBUG   ||Rows on jos_core_acl_aro_map : 0
+DEBUG   ||Done with jos_core_acl_aro_map
+DEBUG   ||----- Finished operation 23 ------
+DEBUG   ||Rows on jos_core_acl_aro_sections : 1
+DEBUG   ||Dumping 1 rows of jos_core_acl_aro_sections
+DEBUG   ||----- Finished operation 24 ------
+DEBUG   ||Done with jos_core_acl_aro_sections
+DEBUG   ||----- Finished operation 25 ------
+DEBUG   ||Rows on jos_core_acl_groups_aro_map : 1
+DEBUG   ||Dumping 1 rows of jos_core_acl_groups_aro_map
+DEBUG   ||----- Finished operation 26 ------
+DEBUG   ||Done with jos_core_acl_groups_aro_map
+DEBUG   ||----- Finished operation 27 ------
+DEBUG   ||Rows on jos_core_log_items : 0
+DEBUG   ||Done with jos_core_log_items
+DEBUG   ||----- Finished operation 28 ------
+DEBUG   ||Rows on jos_core_log_searches : 0
+DEBUG   ||Done with jos_core_log_searches
+DEBUG   ||----- Finished operation 29 ------
+DEBUG   ||Rows on jos_groups : 3
+DEBUG   ||Dumping 3 rows of jos_groups
+DEBUG   ||----- Finished operation 30 ------
+DEBUG   ||Done with jos_groups
+DEBUG   ||----- Finished operation 31 ------
+DEBUG   ||Rows on jos_jp_exclusion : 0
+DEBUG   ||Done with jos_jp_exclusion
+DEBUG   ||----- Finished operation 32 ------
+DEBUG   ||Rows on jos_jp_inclusion : 0
+DEBUG   ||Done with jos_jp_inclusion
+DEBUG   ||----- Finished operation 33 ------
+DEBUG   ||Rows on jos_jp_profiles : 1
+DEBUG   ||Dumping 1 rows of jos_jp_profiles
+DEBUG   ||----- Finished operation 34 ------
+DEBUG   ||Done with jos_jp_profiles
+DEBUG   ||----- Finished operation 35 ------
+DEBUG   ||Rows on jos_jp_registry : 0
+DEBUG   ||Done with jos_jp_registry
+DEBUG   ||----- Finished operation 36 ------
+DEBUG   ||Rows on jos_jp_stats : 1
+DEBUG   ||Dumping 1 rows of jos_jp_stats
+DEBUG   ||----- Finished operation 37 ------
+DEBUG   ||Done with jos_jp_stats
+DEBUG   ||----- Finished operation 38 ------
+DEBUG   ||Rows on jos_jp_temp : 5
+INFO    ||Skipping table jos_jp_temp
+DEBUG   ||Done with jos_jp_temp
+DEBUG   ||----- Finished operation 39 ------
+DEBUG   ||Rows on jos_menu : 69
+DEBUG   ||Dumping 69 rows of jos_menu
+DEBUG   ||----- Finished operation 40 ------
+DEBUG   ||Done with jos_menu
+DEBUG   ||----- Finished operation 41 ------
+DEBUG   ||Rows on jos_menu_types : 5
+DEBUG   ||Dumping 5 rows of jos_menu_types
+DEBUG   ||----- Finished operation 42 ------
+DEBUG   ||Done with jos_menu_types
+DEBUG   ||----- Finished operation 43 ------
+DEBUG   ||Rows on jos_messages : 0
+DEBUG   ||Done with jos_messages
+DEBUG   ||----- Finished operation 44 ------
+DEBUG   ||Rows on jos_messages_cfg : 0
+DEBUG   ||Done with jos_messages_cfg
+DEBUG   ||----- Finished operation 45 ------
+DEBUG   ||Rows on jos_migration_backlinks : 0
+DEBUG   ||Done with jos_migration_backlinks
+DEBUG   ||----- Finished operation 46 ------
+DEBUG   ||Rows on jos_modules : 94
+DEBUG   ||Dumping 94 rows of jos_modules
+DEBUG   ||----- Finished operation 47 ------
+DEBUG   ||Done with jos_modules
+DEBUG   ||----- Finished operation 48 ------
+DEBUG   ||Rows on jos_modules_menu : 298
+DEBUG   ||Dumping 100 rows of jos_modules_menu
+DEBUG   ||----- Finished operation 49 ------
+DEBUG   ||Dumping 100 rows of jos_modules_menu
+DEBUG   ||----- Finished operation 50 ------
+DEBUG   ||Dumping 98 rows of jos_modules_menu
+DEBUG   ||----- Finished operation 51 ------
+DEBUG   ||Done with jos_modules_menu
+DEBUG   ||----- Finished operation 52 ------
+DEBUG   ||Rows on jos_newsfeeds : 8
+DEBUG   ||Dumping 8 rows of jos_newsfeeds
+DEBUG   ||----- Finished operation 53 ------
+DEBUG   ||Done with jos_newsfeeds
+DEBUG   ||----- Finished operation 54 ------
+DEBUG   ||Rows on jos_plugins : 33
+DEBUG   ||Dumping 33 rows of jos_plugins
+DEBUG   ||----- Finished operation 55 ------
+DEBUG   ||Done with jos_plugins
+DEBUG   ||----- Finished operation 56 ------
+DEBUG   ||Rows on jos_poll_data : 12
+DEBUG   ||Dumping 12 rows of jos_poll_data
+DEBUG   ||----- Finished operation 57 ------
+DEBUG   ||Done with jos_poll_data
+DEBUG   ||----- Finished operation 58 ------
+DEBUG   ||Rows on jos_poll_date : 11
+DEBUG   ||Dumping 11 rows of jos_poll_date
+DEBUG   ||----- Finished operation 59 ------
+DEBUG   ||Done with jos_poll_date
+DEBUG   ||----- Finished operation 60 ------
+DEBUG   ||Rows on jos_poll_menu : 0
+DEBUG   ||Done with jos_poll_menu
+DEBUG   ||----- Finished operation 61 ------
+DEBUG   ||Rows on jos_polls : 1
+DEBUG   ||Dumping 1 rows of jos_polls
+DEBUG   ||----- Finished operation 62 ------
+DEBUG   ||Done with jos_polls
+DEBUG   ||----- Finished operation 63 ------
+DEBUG   ||Rows on jos_sections : 2
+DEBUG   ||Dumping 2 rows of jos_sections
+DEBUG   ||----- Finished operation 64 ------
+DEBUG   ||Done with jos_sections
+DEBUG   ||----- Finished operation 65 ------
+DEBUG   ||Rows on jos_session : 3
+DEBUG   ||Dumping 3 rows of jos_session
+DEBUG   ||----- Finished operation 66 ------
+DEBUG   ||Done with jos_session
+DEBUG   ||----- Finished operation 67 ------
+DEBUG   ||Rows on jos_stats_agents : 0
+DEBUG   ||Done with jos_stats_agents
+DEBUG   ||----- Finished operation 68 ------
+DEBUG   ||Rows on jos_templates_menu : 2
+DEBUG   ||Dumping 2 rows of jos_templates_menu
+DEBUG   ||----- Finished operation 69 ------
+DEBUG   ||Done with jos_templates_menu
+DEBUG   ||----- Finished operation 70 ------
+DEBUG   ||Rows on jos_users : 1
+DEBUG   ||Dumping 1 rows of jos_users
+DEBUG   ||----- Finished operation 71 ------
+DEBUG   ||Done with jos_users
+DEBUG   ||----- Finished operation 72 ------
+DEBUG   ||Rows on jos_weblinks : 6
+DEBUG   ||Dumping 6 rows of jos_weblinks
+DEBUG   ||----- Finished operation 73 ------
+DEBUG   ||Done with jos_weblinks
+INFO    ||Database has been successfully dumped to SQL file(s)
+DEBUG   ||----- Finished operation 74 ------
+DEBUG   ||Adding the SQL dump to the archive
+DEBUG   ||File <root>\tmp\f0751d17 - CRC32 = 455eee9a [PHP512]
+DEBUG   ||Removing temporary file
+DEBUG   ||JoomlapackCUBEDomainDBBackup :: No more databases left to iterate
+DEBUG   ||----- Finished operation 75 ------
+DEBUG   ||JoomlapackCUBEDomainDBBackup :: Creating databases.ini
+DEBUG   ||JoomlapackCUBEDomainDBBackup :: Adding Joomla definition
+DEBUG   ||JoomlapackCUBEDomainDBBackup :: Writing databases.ini contents
+DEBUG   ||  Virtual add:installation/sql/databases.ini (127) - 8
+DEBUG   ||----- Finished operation 76 ------
+DEBUG   ||Successful Smart algorithm on JoomlapackCUBEDomainDBBackup
+DEBUG   ||CUBE :: Domain 'PackDB' has finished
+DEBUG   ||Next domain --> Packing
+DEBUG   ||JoomlapackCUBEDomainPack :: new instance
+DEBUG   ||====== Finished Step number 3 ======
+DEBUG   ||Saving CUBEObject instance
+DEBUG   ||JoomlapackCUBE::getInstance - Loading from database
+DEBUG   ||JoomlapackCUBE::getInstance - Loading from database
+DEBUG   ||====== Starting Step number 4 ======
+DEBUG   ||Using smart algorithm for JoomlapackCUBEDomainPack
+DEBUG   ||Smart Stepping
+DEBUG   ||JoomlapackCUBEDomainPack :: Starting _prepare()
+DEBUG   ||JoomlapackCUBEDomainPack :: Getting off-site directory inclusion filters (EFF)
+DEBUG   ||JoomlapackCUBEDomainPack :: Getting exclusion filters
+DEBUG   ||JoomlapackCUBEDomainPack :: Initializing filter manager
+DEBUG   ||JoomlapackCUBEDomainPack :: Getting Directory Exclusion Filters
+DEBUG   ||JoomlapackCUBEDomainPack :: Getting Single File Filters
+DEBUG   ||JoomlapackCUBEDomainPack :: Getting Contained Files Filters
+DEBUG   ||JoomlapackCUBEDomainPack :: Getting Contained Directories Filters
+DEBUG   ||JoomlapackCUBEDomainPack :: Done with filter manager
+DEBUG   ||JoomlapackCUBEDomainPack :: prepared
+DEBUG   ||----- Finished operation 1 ------
+DEBUG   ||Creating lister engine of type smart
+DEBUG   ||Trying to read engine setup data for lister
+DEBUG   ||Trying to include engine file engine.lister.smart
+DEBUG   ||Instanciating JoomlapackListerSmart
+INFO    ||Scanning directories of <root>
+DEBUG   ||----- Finished operation 2 ------
+INFO    ||Scanning files of <root>
+DEBUG   ||----- Finished operation 3 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/.project - CRC32 = ca2571fb [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/CHANGELOG.php - CRC32 = 1b25f651 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/configuration.php - CRC32 = d1bae708 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/configuration.php-dist - CRC32 = eccb1176 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/COPYRIGHT.php - CRC32 = f1769ee5 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/CREDITS.php - CRC32 = 16cbd61 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/htaccess.txt - CRC32 = c9947589 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/index.php - CRC32 = 24d3c990 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/index2.php - CRC32 = e5949942 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/INSTALL.php - CRC32 = 6b9bc7e1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/LICENSE.php - CRC32 = 13509303 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/LICENSES.php - CRC32 = 9ebfaff8 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/robots.txt - CRC32 = e4083896 [PHP512]
+DEBUG   ||----- Finished operation 4 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/xmlrpc
+DEBUG   ||----- Finished operation 5 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/xmlrpc
+DEBUG   ||----- Finished operation 6 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/xmlrpc/client.php - CRC32 = 8675897e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/xmlrpc/index.php - CRC32 = 7084acd2 [PHP512]
+DEBUG   ||----- Finished operation 7 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/xmlrpc/includes
+DEBUG   ||----- Finished operation 8 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/xmlrpc/includes
+DEBUG   ||----- Finished operation 9 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/xmlrpc/includes/application.php - CRC32 = d390e08e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/xmlrpc/includes/defines.php - CRC32 = e03bec99 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/xmlrpc/includes/framework.php - CRC32 = 20726eca [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/xmlrpc/includes/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 10 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/xmlrpc/cache
+DEBUG   ||----- Finished operation 11 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/xmlrpc/cache
+DEBUG   ||----- Finished operation 12 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/xmlrpc/cache/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 13 ------
+INFO    ||Skipping subdirectories of directory C:/ServidorWEB/www/gptech/tmp
+DEBUG   ||----- Finished operation 14 ------
+INFO    ||Skipping files of directory C:/ServidorWEB/www/gptech/tmp
+DEBUG   ||----- Finished operation 15 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/tmp\index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 16 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates
+DEBUG   ||----- Finished operation 17 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates
+DEBUG   ||----- Finished operation 18 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 19 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix
+DEBUG   ||----- Finished operation 20 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix
+DEBUG   ||----- Finished operation 21 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/.tmp_index.php.26502~ - CRC32 = 4258d1e1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/.tmp_index.php.83249~ - CRC32 = 4258d1e1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/apple_touch_icon.png - CRC32 = db5e5b99 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/changelog.php - CRC32 = a1d3af89 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/component.php - CRC32 = 780dfac0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/config.php - CRC32 = c5bf8005 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/favicon.ico - CRC32 = 566f48f6 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/index.php - CRC32 = 4258d1e1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/params.ini - CRC32 = c0a5bd51 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/raw.php - CRC32 = 51586da0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/templateDetails.xml - CRC32 = 6a3c1015 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/template_thumbnail.png - CRC32 = 6941ca84 [PHP512]
+DEBUG   ||----- Finished operation 22 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib
+DEBUG   ||----- Finished operation 23 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib
+DEBUG   ||----- Finished operation 24 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 25 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/renderer
+DEBUG   ||----- Finished operation 26 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/renderer
+DEBUG   ||----- Finished operation 27 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/renderer/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/renderer/modules.php - CRC32 = d1747ad5 [PHP512]
+DEBUG   ||----- Finished operation 28 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/php
+DEBUG   ||----- Finished operation 29 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/php
+DEBUG   ||----- Finished operation 30 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/php/cache.php - CRC32 = 3a15f8be [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/php/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/php/template.php - CRC32 = 92c87aa5 [PHP512]
+DEBUG   ||----- Finished operation 31 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules
+DEBUG   ||----- Finished operation 32 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules
+DEBUG   ||----- Finished operation 33 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/0-1-0.php - CRC32 = faa83d39 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/0-1-3.php - CRC32 = e6067371 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/0-2-0.php - CRC32 = fa14117d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/0-2-3.php - CRC32 = 667c7bb4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/0-3-0.php - CRC32 = b14ed1c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/0-3-3_polaroid.php - CRC32 = aba3201 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/0-4-0.php - CRC32 = 7958e776 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/0-4-0_tab.php - CRC32 = b49ecc7b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/2-1-0.php - CRC32 = 37a00d37 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/3-1-3.php - CRC32 = a486d164 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/3-1-3_header.php - CRC32 = cce29dd6 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/3-2-3_chrome.php - CRC32 = f6d48e1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/3-3-3.php - CRC32 = 97c53a62 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/default.php - CRC32 = 1d603c37 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/dropdown.php - CRC32 = 4b4781d0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/modules/raw.php - CRC32 = 69d472bc [PHP512]
+DEBUG   ||----- Finished operation 34 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js
+DEBUG   ||----- Finished operation 35 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js
+DEBUG   ||----- Finished operation 36 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/ie6fix.js - CRC32 = fcb0cef1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/template.js - CRC32 = 47ef14be [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/x.gif - CRC32 = 516692f [PHP512]
+DEBUG   ||----- Finished operation 37 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/mootools
+DEBUG   ||----- Finished operation 38 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/mootools
+DEBUG   ||----- Finished operation 39 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/mootools/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/mootools/mootools-release-1.11.js - CRC32 = d32babdb [PHP512]
+DEBUG   ||----- Finished operation 40 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/addons
+DEBUG   ||----- Finished operation 41 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/addons
+DEBUG   ||----- Finished operation 42 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/addons/accordionmenu.js - CRC32 = c9a8fbc5 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/addons/base.js - CRC32 = d27da1c2 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/addons/dropdownmenu.js - CRC32 = a25a368b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/addons/fancymenu.js - CRC32 = 4f6cda7c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/addons/ie6fix.js - CRC32 = 871a0e1c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/addons/ie6png.js - CRC32 = e39620ca [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/addons/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/js/addons/slidermenu.js - CRC32 = c4cf99e0 [PHP512]
+DEBUG   ||----- Finished operation 43 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/gzip
+DEBUG   ||----- Finished operation 44 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/gzip
+DEBUG   ||----- Finished operation 45 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/gzip/css.php - CRC32 = c4b88b9e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/gzip/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/lib/gzip/js.php - CRC32 = e5874bcd [PHP512]
+DEBUG   ||----- Finished operation 46 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images
+DEBUG   ||----- Finished operation 47 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images
+DEBUG   ||----- Finished operation 48 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/article_separator.png - CRC32 = b0ff57c2 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/breadcrumbs.png - CRC32 = bced9cd [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/contentleft_bg.png - CRC32 = eb8a5419 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/contentright_bg.png - CRC32 = 64f1b76 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/emailButton.png - CRC32 = a70ecbde [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/footer_anchor.png - CRC32 = f3d852b1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/left_bg_l.png - CRC32 = f03ceb80 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/left_bg_r.png - CRC32 = 1fd0173d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/menubar_bg - Cópia.png - CRC32 = c7eb5fec [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/menubar_bg.png - CRC32 = e2a18403 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/menu_dropdown_corners - Cópia.png - CRC32 = 4781ef7b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/menu_dropdown_corners.png - CRC32 = 3856980f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/menu_level1_item - Cópia.png - CRC32 = 8b2e5533 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/menu_level1_item.png - CRC32 = 4c548b10 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/menu_level2_group_b.png - CRC32 = 857e8ce9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/menu_level2_group_corners.png - CRC32 = a55e062e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/menu_level2_item_hover_corners.png - CRC32 = e3ebd5f4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/menu_level3_item.png - CRC32 = 1c4f6977 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_badges.png - CRC32 = 8d2c5e7b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_chrome_black.png - CRC32 = 44c11abf [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_chrome_blue.png - CRC32 = bf2cf8af [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_chrome_green.png - CRC32 = 6ac457e1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_chrome_orange.png - CRC32 = cb5e7910 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_chrome_white.png - CRC32 = 125fd093 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_icons.png - CRC32 = 2985101b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_line.png - CRC32 = db494321 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_polaroid_bg.png - CRC32 = 8d50b202 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_polaroid_shadows.png - CRC32 = 8e30669 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_polaroid_tape.png - CRC32 = 45c15bde [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_postit_shadows.png - CRC32 = a79f78d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_rounded_grey_corners.png - CRC32 = 8c47b83 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_rounded_grey_header.png - CRC32 = 5ac6f293 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_rounded_white_corners.png - CRC32 = 5ae720af [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_rounded_white_header.png - CRC32 = 2d40c889 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_tab_bl.png - CRC32 = b024363d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_tab_header.png - CRC32 = eb7a52e4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_tab_l.png - CRC32 = 81144843 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_tab_t.png - CRC32 = 3f9faa63 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/module_tab_tr.png - CRC32 = 388eeafc [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/page_bg_b.png - CRC32 = dbd9c7bf [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/page_bg_t.png - CRC32 = e355a19f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/pdf_button.png - CRC32 = 3527ca6c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/printButton.png - CRC32 = 3c6c7eef [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/readmore.png - CRC32 = 2f18fec5 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/right_bg.png - CRC32 = 106b8dd7 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/searchbox_bg.png - CRC32 = 3f5e90b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/search_bg.png - CRC32 = c211295 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/search_magnifier_icon.png - CRC32 = 6e801530 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/submenu_level1_item_black.png - CRC32 = 140bbe31 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/submenu_level1_item_white.png - CRC32 = 89d811b3 [PHP512]
+DEBUG   ||----- Finished operation 49 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/submenu_level1_parent.png - CRC32 = 4fc7a692 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/topmenu_item_bg.png - CRC32 = 1ab5a5e0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/topmenu_item_bg_white.png - CRC32 = eec757f7 [PHP512]
+DEBUG   ||----- Finished operation 50 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations
+DEBUG   ||----- Finished operation 51 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations
+DEBUG   ||----- Finished operation 52 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 53 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/waveyellow
+DEBUG   ||----- Finished operation 54 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/waveyellow
+DEBUG   ||----- Finished operation 55 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/waveyellow/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/waveyellow/page_bg.png - CRC32 = 30b62e2 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/waveyellow/page_bg_radial.jpg - CRC32 = 35841468 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/waveyellow/page_bg_wrapper.png - CRC32 = 61d13f54 [PHP512]
+DEBUG   ||----- Finished operation 56 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/wavegreen
+DEBUG   ||----- Finished operation 57 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/wavegreen
+DEBUG   ||----- Finished operation 58 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/wavegreen/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/wavegreen/page_bg.png - CRC32 = 5744e535 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/wavegreen/page_bg_radial.jpg - CRC32 = 4d6f4b2 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/wavegreen/page_bg_wrapper.png - CRC32 = 6e103718 [PHP512]
+DEBUG   ||----- Finished operation 59 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/waveblue
+DEBUG   ||----- Finished operation 60 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/waveblue
+DEBUG   ||----- Finished operation 61 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/waveblue/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/waveblue/page_bg.png - CRC32 = 426fe75f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/waveblue/page_bg_radial.jpg - CRC32 = da4387ca [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/waveblue/page_bg_wrapper.png - CRC32 = 78788811 [PHP512]
+DEBUG   ||----- Finished operation 62 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/combsred
+DEBUG   ||----- Finished operation 63 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/combsred
+DEBUG   ||----- Finished operation 64 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/combsred/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/combsred/page_bg.png - CRC32 = 480b8a94 [PHP512]
+DEBUG   ||----- Finished operation 65 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/combsblue
+DEBUG   ||----- Finished operation 66 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/combsblue
+DEBUG   ||----- Finished operation 67 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/combsblue/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/combsblue/page_bg.png - CRC32 = 6e00bc0b [PHP512]
+DEBUG   ||----- Finished operation 68 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/combsblack
+DEBUG   ||----- Finished operation 69 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/combsblack
+DEBUG   ||----- Finished operation 70 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/combsblack/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/combsblack/page_bg.png - CRC32 = c9046686 [PHP512]
+DEBUG   ||----- Finished operation 71 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/barorange
+DEBUG   ||----- Finished operation 72 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/barorange
+DEBUG   ||----- Finished operation 73 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/barorange/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/barorange/page_bg.png - CRC32 = 8cdf73fd [PHP512]
+DEBUG   ||----- Finished operation 74 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/bargreen
+DEBUG   ||----- Finished operation 75 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/bargreen
+DEBUG   ||----- Finished operation 76 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/bargreen/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/bargreen/page_bg.png - CRC32 = bd716915 [PHP512]
+DEBUG   ||----- Finished operation 77 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/barblue
+DEBUG   ||----- Finished operation 78 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/barblue
+DEBUG   ||----- Finished operation 79 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/barblue/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/variations/barblue/page_bg.png - CRC32 = dd8eadbf [PHP512]
+DEBUG   ||----- Finished operation 80 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography
+DEBUG   ||----- Finished operation 81 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography
+DEBUG   ||----- Finished operation 82 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/blockquote_end.png - CRC32 = a7b387a9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/blockquote_start.png - CRC32 = df48b76e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/box_alert.png - CRC32 = 74704591 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/box_download.png - CRC32 = 3f241216 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/box_info.png - CRC32 = 84f346a3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/box_tip.png - CRC32 = 33b72e50 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/icon_download.png - CRC32 = 4d458b14 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/icon_external.png - CRC32 = bebdd324 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/icon_file.png - CRC32 = 7783a7cc [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/icon_folder.png - CRC32 = 87696c1a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/line_dotted.png - CRC32 = c8409cda [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/list_arrow.png - CRC32 = f48af8fd [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/list_check.png - CRC32 = 57e482f4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/list_checkbox.png - CRC32 = d159156 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/list_disc.png - CRC32 = 7c4507c6 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/images/typography/list_star.png - CRC32 = 8ba9e48f [PHP512]
+DEBUG   ||----- Finished operation 83 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html
+DEBUG   ||----- Finished operation 84 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html
+DEBUG   ||----- Finished operation 85 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/modules.php - CRC32 = 54cff8e6 [PHP512]
+DEBUG   ||----- Finished operation 86 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_search
+DEBUG   ||----- Finished operation 87 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_search
+DEBUG   ||----- Finished operation 88 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_search/.tmp_default.php.37697~ - CRC32 = d3120fc0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_search/.tmp_default.php.81749~ - CRC32 = 2739ec5b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_search/default.php - CRC32 = 2739ec5b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_search/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 89 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_newsflash
+DEBUG   ||----- Finished operation 90 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_newsflash
+DEBUG   ||----- Finished operation 91 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_newsflash/default.php - CRC32 = 2f00cd3f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_newsflash/horiz.php - CRC32 = 7093989b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_newsflash/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_newsflash/vert.php - CRC32 = def78944 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_newsflash/_item.php - CRC32 = 23b03694 [PHP512]
+DEBUG   ||----- Finished operation 92 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_mainmenu
+DEBUG   ||----- Finished operation 93 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_mainmenu
+DEBUG   ||----- Finished operation 94 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_mainmenu/default.php - CRC32 = 32d56d5e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_mainmenu/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_mainmenu/yoomenu.php - CRC32 = bca06e47 [PHP512]
+DEBUG   ||----- Finished operation 95 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_mainmenu/decorator
+DEBUG   ||----- Finished operation 96 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_mainmenu/decorator
+DEBUG   ||----- Finished operation 97 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_mainmenu/decorator/accordion.php - CRC32 = 550f71f0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_mainmenu/decorator/default.php - CRC32 = 61947032 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_mainmenu/decorator/dropdown.php - CRC32 = a5658ed1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_mainmenu/decorator/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 98 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_breadcrumbs
+DEBUG   ||----- Finished operation 99 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_breadcrumbs
+DEBUG   ||----- Finished operation 100 ------
+DEBUG   ||Successful Smart algorithm on JoomlapackCUBEDomainPack
+DEBUG   ||CUBE :: More work required in domain 'Packing
+DEBUG   ||====== Finished Step number 4 ======
+DEBUG   ||Saving CUBEObject instance
+DEBUG   ||JoomlapackCUBE::getInstance - Loading from database
+DEBUG   ||JoomlapackCUBE::getInstance - Loading from database
+DEBUG   ||====== Starting Step number 5 ======
+DEBUG   ||Using smart algorithm for JoomlapackCUBEDomainPack
+DEBUG   ||Smart Stepping
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_breadcrumbs/default.php - CRC32 = b3c67901 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/mod_breadcrumbs/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 1 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks
+DEBUG   ||----- Finished operation 2 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks
+DEBUG   ||----- Finished operation 3 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 4 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/weblink
+DEBUG   ||----- Finished operation 5 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/weblink
+DEBUG   ||----- Finished operation 6 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/weblink/form.php - CRC32 = 446e3c73 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/weblink/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 7 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/category
+DEBUG   ||----- Finished operation 8 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/category
+DEBUG   ||----- Finished operation 9 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/category/default.php - CRC32 = b4ed3ed3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/category/default_items.php - CRC32 = 3ae25578 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/category/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 10 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/categories
+DEBUG   ||----- Finished operation 11 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/categories
+DEBUG   ||----- Finished operation 12 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/categories/default.php - CRC32 = 9af92f9f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_weblinks/categories/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 13 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user
+DEBUG   ||----- Finished operation 14 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user
+DEBUG   ||----- Finished operation 15 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 16 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/user
+DEBUG   ||----- Finished operation 17 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/user
+DEBUG   ||----- Finished operation 18 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/user/default.php - CRC32 = ffceb5 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/user/form.php - CRC32 = 4fe0eb78 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/user/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 19 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/reset
+DEBUG   ||----- Finished operation 20 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/reset
+DEBUG   ||----- Finished operation 21 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/reset/complete.php - CRC32 = 462034a7 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/reset/confirm.php - CRC32 = 78414372 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/reset/default.php - CRC32 = 553a6566 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/reset/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 22 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/remind
+DEBUG   ||----- Finished operation 23 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/remind
+DEBUG   ||----- Finished operation 24 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/remind/default.php - CRC32 = ec5ef2e4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/remind/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 25 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/register
+DEBUG   ||----- Finished operation 26 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/register
+DEBUG   ||----- Finished operation 27 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/register/default.php - CRC32 = 60b071b2 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/register/default_message.php - CRC32 = 2d2bfc81 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/register/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 28 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/login
+DEBUG   ||----- Finished operation 29 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/login
+DEBUG   ||----- Finished operation 30 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/login/default.php - CRC32 = 8f4b0e5f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/login/default_login.php - CRC32 = 470fb71f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/login/default_logout.php - CRC32 = 20c96a9f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_user/login/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 31 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search
+DEBUG   ||----- Finished operation 32 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search
+DEBUG   ||----- Finished operation 33 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 34 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search/search
+DEBUG   ||----- Finished operation 35 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search/search
+DEBUG   ||----- Finished operation 36 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search/search/.tmp_default_form.php.66329~ - CRC32 = 7fda7276 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search/search/.tmp_yoosearch.php.66589~ - CRC32 = 673e9338 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search/search/default.php - CRC32 = 7b6cb6a6 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search/search/default_error.php - CRC32 = de2814a3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search/search/default_form.php - CRC32 = 7fda7276 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search/search/default_results.php - CRC32 = 75945dcb [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search/search/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_search/search/yoosearch.php - CRC32 = 673e9338 [PHP512]
+DEBUG   ||----- Finished operation 37 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_poll
+DEBUG   ||----- Finished operation 38 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_poll
+DEBUG   ||----- Finished operation 39 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_poll/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 40 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_poll/poll
+DEBUG   ||----- Finished operation 41 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_poll/poll
+DEBUG   ||----- Finished operation 42 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_poll/poll/default.php - CRC32 = 1c40f0fa [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_poll/poll/default_graph.php - CRC32 = bdb929f7 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_poll/poll/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 43 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds
+DEBUG   ||----- Finished operation 44 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds
+DEBUG   ||----- Finished operation 45 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 46 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/newsfeed
+DEBUG   ||----- Finished operation 47 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/newsfeed
+DEBUG   ||----- Finished operation 48 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/newsfeed/default.php - CRC32 = 2acdb15b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/newsfeed/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 49 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/category
+DEBUG   ||----- Finished operation 50 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/category
+DEBUG   ||----- Finished operation 51 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/category/default.php - CRC32 = 8d52afa5 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/category/default_items.php - CRC32 = b6648f6f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/category/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 52 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/categories
+DEBUG   ||----- Finished operation 53 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/categories
+DEBUG   ||----- Finished operation 54 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/categories/default.php - CRC32 = 385d01a6 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_newsfeeds/categories/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 55 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content
+DEBUG   ||----- Finished operation 56 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content
+DEBUG   ||----- Finished operation 57 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 58 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/section
+DEBUG   ||----- Finished operation 59 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/section
+DEBUG   ||----- Finished operation 60 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/section/blog.php - CRC32 = 52af4a43 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/section/blog_item.php - CRC32 = 983cba88 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/section/blog_links.php - CRC32 = af0fd103 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/section/default.php - CRC32 = 8520052d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/section/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 61 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/frontpage
+DEBUG   ||----- Finished operation 62 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/frontpage
+DEBUG   ||----- Finished operation 63 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/frontpage/default.php - CRC32 = 185be046 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/frontpage/default_item.php - CRC32 = 8cef5a61 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/frontpage/default_links.php - CRC32 = affbd2a5 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/frontpage/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 64 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/category
+DEBUG   ||----- Finished operation 65 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/category
+DEBUG   ||----- Finished operation 66 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/category/blog.php - CRC32 = 40f5e2cb [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/category/blog_item.php - CRC32 = 9cb7575c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/category/blog_links.php - CRC32 = af0fd103 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/category/default.php - CRC32 = 71e521db [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/category/default_items.php - CRC32 = 3cc50e24 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/category/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 67 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/article
+DEBUG   ||----- Finished operation 68 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/article
+DEBUG   ||----- Finished operation 69 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/article/default.php - CRC32 = 25b3a5d7 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/article/form.php - CRC32 = 9f548f39 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_content/article/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 70 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact
+DEBUG   ||----- Finished operation 71 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact
+INFO    ||Empty directory C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact
+DEBUG   ||----- Finished operation 72 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact/contact
+DEBUG   ||----- Finished operation 73 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact/contact
+DEBUG   ||----- Finished operation 74 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact/contact/default.php - CRC32 = f7cafd57 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact/contact/default_address.php - CRC32 = c067d6a8 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact/contact/default_form.php - CRC32 = f277ec94 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact/contact/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 75 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact/category
+DEBUG   ||----- Finished operation 76 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact/category
+DEBUG   ||----- Finished operation 77 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact/category/default.php - CRC32 = 1c408733 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact/category/default_items.php - CRC32 = f5d04f58 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/html/com_contact/category/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 78 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css
+DEBUG   ||----- Finished operation 79 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css
+DEBUG   ||----- Finished operation 80 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/Copy of menus.css - CRC32 = 8fedea6f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/custom.css - CRC32 = 7fc1773e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/editor.css - CRC32 = e16cecb4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/extensions.css - CRC32 = a7a92 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/ie6hacks.css - CRC32 = 9f428b9a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/ie7hacks.css - CRC32 = 3bbb6bf4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/joomla.css - CRC32 = 9142edcd [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/layout.css - CRC32 = 5e2a6817 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/menus.css - CRC32 = 33eff862 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/modules.css - CRC32 = c77b3a53 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/popups.css - CRC32 = 58d73cd3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/reset.css - CRC32 = 4a763160 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/template.css - CRC32 = d5139eb4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/typography.css - CRC32 = e7286bf7 [PHP512]
+DEBUG   ||----- Finished operation 81 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/variations
+DEBUG   ||----- Finished operation 82 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/variations
+DEBUG   ||----- Finished operation 83 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/variations/barblue.css - CRC32 = 4a7b7067 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/variations/bargreen.css - CRC32 = c942558b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/variations/barorange.css - CRC32 = 259cf3fe [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/variations/combsblack.css - CRC32 = f3ab33fd [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/variations/combsblue.css - CRC32 = 48c6c0f9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/variations/combsred.css - CRC32 = da5375e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/variations/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/variations/waveblue.css - CRC32 = 39d69b05 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/variations/wavegreen.css - CRC32 = 2e8809e0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/yoo_phoenix/css/variations/waveyellow.css - CRC32 = 8b37493f [PHP512]
+DEBUG   ||----- Finished operation 84 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/system
+DEBUG   ||----- Finished operation 85 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/system
+DEBUG   ||----- Finished operation 86 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/component.php - CRC32 = 58ae5a95 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/error.php - CRC32 = c2b66ed5 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/index.php - CRC32 = d49c7762 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/offline.php - CRC32 = 723edd40 [PHP512]
+DEBUG   ||----- Finished operation 87 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/system/images
+DEBUG   ||----- Finished operation 88 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/system/images
+DEBUG   ||----- Finished operation 89 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/images/calendar.png - CRC32 = da20318e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/images/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/images/j_button2_blank.png - CRC32 = 79bb1c83 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/images/j_button2_image.png - CRC32 = ef23ede6 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/images/j_button2_left.png - CRC32 = 632543fb [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/images/j_button2_pagebreak.png - CRC32 = a4c2756b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/images/j_button2_readmore.png - CRC32 = cd21b3fe [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/images/notice-alert.png - CRC32 = 184a5290 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/images/notice-download.png - CRC32 = 72b60540 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/images/notice-info.png - CRC32 = 3d19fca9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/images/notice-note.png - CRC32 = bf7b3ad9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/images/selector-arrow.png - CRC32 = 1c5aff35 [PHP512]
+DEBUG   ||----- Finished operation 90 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/system/html
+DEBUG   ||----- Finished operation 91 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/system/html
+DEBUG   ||----- Finished operation 92 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/html/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/html/modules.php - CRC32 = 335178d9 [PHP512]
+DEBUG   ||----- Finished operation 93 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/system/css
+DEBUG   ||----- Finished operation 94 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/system/css
+DEBUG   ||----- Finished operation 95 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/css/editor.css - CRC32 = e234a63e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/css/error.css - CRC32 = 13ff7e51 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/css/general.css - CRC32 = 7a10a3b3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/css/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/css/offline.css - CRC32 = ef8f260c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/css/offline_rtl.css - CRC32 = cb911258 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/css/system.css - CRC32 = 88a321a3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/system/css/toolbar.css - CRC32 = a2127d2 [PHP512]
+DEBUG   ||----- Finished operation 96 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway
+DEBUG   ||----- Finished operation 97 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway
+DEBUG   ||----- Finished operation 98 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/component.php - CRC32 = 6c9bcac3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/favicon.ico - CRC32 = 566f48f6 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/index.php - CRC32 = 81c1605e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/params.ini - CRC32 = 4141e22c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/templateDetails.xml - CRC32 = 2f87aca2 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/template_thumbnail.png - CRC32 = 71789e74 [PHP512]
+DEBUG   ||----- Finished operation 99 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images
+DEBUG   ||----- Finished operation 100 ------
+DEBUG   ||Successful Smart algorithm on JoomlapackCUBEDomainPack
+DEBUG   ||CUBE :: More work required in domain 'Packing
+DEBUG   ||====== Finished Step number 5 ======
+DEBUG   ||Saving CUBEObject instance
+DEBUG   ||JoomlapackCUBE::getInstance - Loading from database
+DEBUG   ||JoomlapackCUBE::getInstance - Loading from database
+DEBUG   ||====== Starting Step number 6 ======
+DEBUG   ||Using smart algorithm for JoomlapackCUBEDomainPack
+DEBUG   ||Smart Stepping
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images
+DEBUG   ||----- Finished operation 1 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/arrow.png - CRC32 = e14af2a8 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/indent1.png - CRC32 = f274f2f4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/indent2.png - CRC32 = a332bde6 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/indent3.png - CRC32 = b954702b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/indent4.png - CRC32 = 8568d772 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/login-bg.gif - CRC32 = 438c491b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_content_b.png - CRC32 = 6737845e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_content_b_l.png - CRC32 = f88aa029 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_content_b_r.png - CRC32 = c54e9fa8 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_content_t.png - CRC32 = e970f08e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_content_t_l.png - CRC32 = 1e840f9b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_content_t_r.png - CRC32 = 52251c50 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_footer_separator.png - CRC32 = 9101b11a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_header.jpg - CRC32 = b7e117e3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_header_b.png - CRC32 = c3b58ea4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_header_l_b.png - CRC32 = 7500ad02 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_header_r_b.png - CRC32 = 5723d1b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_joomla_logo.png - CRC32 = ed4cfd28 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_line_grey.png - CRC32 = 1cd66f1a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_menu_cap_l.png - CRC32 = 36d3ea43 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_menu_cap_r.png - CRC32 = fe067e41 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_menu_normal_bg.png - CRC32 = 9da0e1f0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_menu_separator.png - CRC32 = f7eb1d37 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_readon.png - CRC32 = e5073c4b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/mw_readon_rtl.png - CRC32 = 503b3e83 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/spacer.png - CRC32 = 74f5370c [PHP512]
+DEBUG   ||----- Finished operation 2 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white
+DEBUG   ||----- Finished operation 3 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white
+DEBUG   ||----- Finished operation 4 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_box_bl.png - CRC32 = e7d7794c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_box_br.png - CRC32 = dd8346ee [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_box_tl.png - CRC32 = 87fd7dd8 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_box_tr.png - CRC32 = 1ca4f1f7 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_footer_b.png - CRC32 = f68d9abc [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_footer_b_l.png - CRC32 = aa99d1e5 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_footer_b_r.png - CRC32 = be1300e2 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_header_t.png - CRC32 = 296f5526 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_header_t_l.png - CRC32 = 4a507e99 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_header_t_r.png - CRC32 = 4640d3f2 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_menu_active_bg.png - CRC32 = c7a9f55 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_shadow_l.png - CRC32 = 7ab426dd [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/white/mw_shadow_r.png - CRC32 = 9f81a0d6 [PHP512]
+DEBUG   ||----- Finished operation 5 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red
+DEBUG   ||----- Finished operation 6 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red
+DEBUG   ||----- Finished operation 7 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_box_bl.png - CRC32 = 3c76a453 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_box_br.png - CRC32 = 76555ea0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_box_tl.png - CRC32 = 47a481a9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_box_tr.png - CRC32 = 4cf06441 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_footer_b.png - CRC32 = 6ad152b1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_footer_b_l.png - CRC32 = 9b6a9e70 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_footer_b_r.png - CRC32 = cd52596d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_header_t.png - CRC32 = 3c3b3c31 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_header_t_l.png - CRC32 = a8b770b9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_header_t_r.png - CRC32 = 1276d926 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_menu_active_bg.png - CRC32 = e1622a71 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_shadow_l.png - CRC32 = ab69f1fc [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/red/mw_shadow_r.png - CRC32 = 70aac1c6 [PHP512]
+DEBUG   ||----- Finished operation 8 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange
+DEBUG   ||----- Finished operation 9 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange
+DEBUG   ||----- Finished operation 10 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_box_bl.png - CRC32 = 5427227d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_box_br.png - CRC32 = e44b7a56 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_box_tl.png - CRC32 = f8755fff [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_box_tr.png - CRC32 = 4ed87862 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_footer_b.png - CRC32 = a2d4aa67 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_footer_b_l.png - CRC32 = f0514a01 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_footer_b_r.png - CRC32 = af20f0d5 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_header_t.png - CRC32 = 5861c0a3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_header_t_l.png - CRC32 = f06f35e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_header_t_r.png - CRC32 = e042ba13 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_menu_active_bg.png - CRC32 = 837cca22 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_shadow_l.png - CRC32 = 1156086 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/orange/mw_shadow_r.png - CRC32 = 8920cca5 [PHP512]
+DEBUG   ||----- Finished operation 11 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green
+DEBUG   ||----- Finished operation 12 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green
+DEBUG   ||----- Finished operation 13 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_box_bl.png - CRC32 = 7011e5af [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_box_br.png - CRC32 = 8049841f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_box_tl.png - CRC32 = 808302e0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_box_tr.png - CRC32 = 2e8002a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_footer_b.png - CRC32 = eea56264 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_footer_b_l.png - CRC32 = 4c811dac [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_footer_b_r.png - CRC32 = 347816b1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_header_t.png - CRC32 = 44f732ef [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_header_t_l.png - CRC32 = bfd27c5c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_header_t_r.png - CRC32 = e00a293b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_menu_active_bg.png - CRC32 = 28ea4a19 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_shadow_l.png - CRC32 = b0cf0418 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/green/mw_shadow_r.png - CRC32 = 29f03bb0 [PHP512]
+DEBUG   ||----- Finished operation 14 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue
+DEBUG   ||----- Finished operation 15 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue
+DEBUG   ||----- Finished operation 16 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_box_bl.png - CRC32 = b6e3610d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_box_br.png - CRC32 = be9889f8 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_box_tl.png - CRC32 = 10da70bb [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_box_tr.png - CRC32 = 80f7efab [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_footer_b.png - CRC32 = 7d86730 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_footer_b_l.png - CRC32 = 1042ca9c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_footer_b_r.png - CRC32 = 43862d22 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_header_t.png - CRC32 = d6616449 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_header_t_l.png - CRC32 = 30c9568f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_header_t_r.png - CRC32 = a43fb5a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_menu_active_bg.png - CRC32 = 6ae71455 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_shadow_l.png - CRC32 = 1fad34ba [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/blue/mw_shadow_r.png - CRC32 = 209aece8 [PHP512]
+DEBUG   ||----- Finished operation 17 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black
+DEBUG   ||----- Finished operation 18 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black
+DEBUG   ||----- Finished operation 19 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_box_bl.png - CRC32 = 38cfd3ad [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_box_br.png - CRC32 = 542c430c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_box_tl.png - CRC32 = 221d2fea [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_box_tr.png - CRC32 = e5cf79ef [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_footer_b.png - CRC32 = de61b480 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_footer_b_l.png - CRC32 = 643e227e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_footer_b_r.png - CRC32 = f66515c3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_header_t.png - CRC32 = d4e8d488 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_header_t_l.png - CRC32 = 6d1637c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_header_t_r.png - CRC32 = 7291b17 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_menu_active_bg.png - CRC32 = da95a7a3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_shadow_l.png - CRC32 = e8822584 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/images/black/mw_shadow_r.png - CRC32 = d0b253d6 [PHP512]
+DEBUG   ||----- Finished operation 20 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/html
+DEBUG   ||----- Finished operation 21 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/html
+DEBUG   ||----- Finished operation 22 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/html/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/html/modules.php - CRC32 = 8609803d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/html/pagination.php - CRC32 = 4a500abe [PHP512]
+DEBUG   ||----- Finished operation 23 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css
+DEBUG   ||----- Finished operation 24 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css
+DEBUG   ||----- Finished operation 25 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/black.css - CRC32 = a55b18e8 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/black_bg.css - CRC32 = e9bb00ee [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/blue.css - CRC32 = faf8811f [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/blue_bg.css - CRC32 = 95b8f0bf [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/green.css - CRC32 = bd2ef9af [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/green_bg.css - CRC32 = 3d12d242 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/ieonly.css - CRC32 = 856b4905 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/orange.css - CRC32 = f37a05d3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/orange_bg.css - CRC32 = 9a56a28a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/red.css - CRC32 = 76526377 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/red_bg.css - CRC32 = e6494404 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/template.css - CRC32 = d97b716c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/template_rtl.css - CRC32 = c3d4eef [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/white.css - CRC32 = eaf3615a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/rhuk_milkyway/css/white_bg.css - CRC32 = 2e7c8a3d [PHP512]
+DEBUG   ||----- Finished operation 26 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity
+DEBUG   ||----- Finished operation 27 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity
+DEBUG   ||----- Finished operation 28 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/component.php - CRC32 = a6203f00 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/favicon.ico - CRC32 = 566f48f6 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/index.php - CRC32 = ca997a3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/ja_templatetools.php - CRC32 = a5367005 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/ja_vars.php - CRC32 = 73dbf773 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/params.ini - CRC32 = 7a90508b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/templateDetails.xml - CRC32 = 795b96da [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/template_thumbnail.png - CRC32 = 426638b4 [PHP512]
+DEBUG   ||----- Finished operation 29 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles
+DEBUG   ||----- Finished operation 30 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles
+DEBUG   ||----- Finished operation 31 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 32 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header
+DEBUG   ||----- Finished operation 33 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header
+DEBUG   ||----- Finished operation 34 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 35 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/green
+DEBUG   ||----- Finished operation 36 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/green
+DEBUG   ||----- Finished operation 37 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/green/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/green/style.css - CRC32 = daf09b09 [PHP512]
+DEBUG   ||----- Finished operation 38 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/green/images
+DEBUG   ||----- Finished operation 39 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/green/images
+DEBUG   ||----- Finished operation 40 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/green/images/header-mask.png - CRC32 = fcce07a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/green/images/icon-search.gif - CRC32 = 7d46b0b0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/green/images/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/green/images/opaque.png - CRC32 = 2f1d97a8 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/green/images/vdot2.gif - CRC32 = e23c2dc8 [PHP512]
+DEBUG   ||----- Finished operation 41 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/blue
+DEBUG   ||----- Finished operation 42 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/blue
+DEBUG   ||----- Finished operation 43 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/blue/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/blue/style.css - CRC32 = 705fdc44 [PHP512]
+DEBUG   ||----- Finished operation 44 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/blue/images
+DEBUG   ||----- Finished operation 45 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/blue/images
+DEBUG   ||----- Finished operation 46 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/blue/images/header-mask.png - CRC32 = ff470f1a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/blue/images/icon-search.gif - CRC32 = 5e638fe9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/blue/images/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/blue/images/opaque.png - CRC32 = 14e67e74 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/header/blue/images/vdot2.gif - CRC32 = 18d4e1e2 [PHP512]
+DEBUG   ||----- Finished operation 47 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements
+DEBUG   ||----- Finished operation 48 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements
+DEBUG   ||----- Finished operation 49 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 50 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/red
+DEBUG   ||----- Finished operation 51 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/red
+DEBUG   ||----- Finished operation 52 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/red/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/red/style.css - CRC32 = 46dc34d0 [PHP512]
+DEBUG   ||----- Finished operation 53 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/red/images
+DEBUG   ||----- Finished operation 54 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/red/images
+DEBUG   ||----- Finished operation 55 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/red/images/bullet3.gif - CRC32 = 48a8788 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/red/images/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 56 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/green
+DEBUG   ||----- Finished operation 57 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/green
+DEBUG   ||----- Finished operation 58 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/green/style.css - CRC32 = f196d204 [PHP512]
+DEBUG   ||----- Finished operation 59 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/green/images
+DEBUG   ||----- Finished operation 60 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/green/images
+DEBUG   ||----- Finished operation 61 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/green/images/bullet3.gif - CRC32 = 1bb8bbb6 [PHP512]
+DEBUG   ||----- Finished operation 62 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/blue
+DEBUG   ||----- Finished operation 63 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/blue
+DEBUG   ||----- Finished operation 64 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/blue/style.css - CRC32 = f2dfed5b [PHP512]
+DEBUG   ||----- Finished operation 65 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/blue/images
+DEBUG   ||----- Finished operation 66 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/blue/images
+DEBUG   ||----- Finished operation 67 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/blue/images/bullet3.gif - CRC32 = 1bb8bbb6 [PHP512]
+DEBUG   ||----- Finished operation 68 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/black
+DEBUG   ||----- Finished operation 69 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/black
+DEBUG   ||----- Finished operation 70 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/black/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/black/style.css - CRC32 = 33cb5664 [PHP512]
+DEBUG   ||----- Finished operation 71 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/black/images
+DEBUG   ||----- Finished operation 72 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/black/images
+DEBUG   ||----- Finished operation 73 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/elements/black/images/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 74 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background
+DEBUG   ||----- Finished operation 75 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background
+DEBUG   ||----- Finished operation 76 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 77 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite
+DEBUG   ||----- Finished operation 78 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite
+DEBUG   ||----- Finished operation 79 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/style.css - CRC32 = c4060e7d [PHP512]
+DEBUG   ||----- Finished operation 80 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images
+DEBUG   ||----- Finished operation 81 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images
+DEBUG   ||----- Finished operation 82 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/arrow.png - CRC32 = 46690905 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/b-bl.gif - CRC32 = ecf053b7 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/b-br.gif - CRC32 = a71d84db [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/b-tl.gif - CRC32 = 7611aa0c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/b-tr.gif - CRC32 = ab73ab07 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bb-bl.gif - CRC32 = d58e3858 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bb-br.gif - CRC32 = 7a00060b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bb-tl.gif - CRC32 = 136176fc [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bb-tr.gif - CRC32 = d087e364 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bg-bl.gif - CRC32 = 94f369ea [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bg-br.gif - CRC32 = ed06241a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bg-tl.gif - CRC32 = 7ff4d54e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bg-tr.gif - CRC32 = 996d5ef0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bl-bl.gif - CRC32 = e8950aba [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bl-br.gif - CRC32 = 4763bbd [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bl-tl.gif - CRC32 = 10d8ed2d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bl-tr.gif - CRC32 = bf9a0c2 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/br-bl.gif - CRC32 = 320da6a1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/br-br.gif - CRC32 = 70cfc6b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/br-tl.gif - CRC32 = bdc510b4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/br-tr.gif - CRC32 = 5e1b464b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bt-bl.gif - CRC32 = 285cf4ab [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bt-br.gif - CRC32 = f3658ec4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bt-tl.gif - CRC32 = 39533a8c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bt-tr.gif - CRC32 = c4bd02db [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub1-bl.gif - CRC32 = 132f59af [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub1-br.gif - CRC32 = b0edd52 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub1-tl.gif - CRC32 = 6d501931 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub1-tr.gif - CRC32 = cd27d3f1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub2-bl.gif - CRC32 = 494aa7e5 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub2-br.gif - CRC32 = 895795cc [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub2-tl.gif - CRC32 = ede1b116 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub2-tr.gif - CRC32 = ff215169 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub3-bl.gif - CRC32 = 719731a1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub3-br.gif - CRC32 = 5c38644d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub3-tl.gif - CRC32 = 6d501931 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub3-tr.gif - CRC32 = cd27d3f1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub4-bl.gif - CRC32 = ca40bc4e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub4-br.gif - CRC32 = 989d7a39 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub4-tl.gif - CRC32 = ede1b116 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/bub4-tr.gif - CRC32 = ff215169 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/c-bg1.gif - CRC32 = 248ef91e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/c-bg2.gif - CRC32 = 6f33f7b3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/checklist-bg.gif - CRC32 = 2c3b4f77 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/cw-bg1.gif - CRC32 = 76bae1dd [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/cw-bg2.gif - CRC32 = 892b1c19 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/cw-bg3.gif - CRC32 = c4d16738 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/cwf-bg.gif - CRC32 = c4d16738 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/download-bg.gif - CRC32 = 3758150a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/icon_list.gif - CRC32 = e9be1188 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||----- Finished operation 83 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/ol-bg.gif - CRC32 = dfda4824 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/sc-q.gif - CRC32 = 12bb37ab [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/so-q.gif - CRC32 = e6bb56e4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/star-bg.gif - CRC32 = 71ee9410 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/purewhite/images/sticky-bg.gif - CRC32 = a063c7ed [PHP512]
+DEBUG   ||----- Finished operation 84 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter
+DEBUG   ||----- Finished operation 85 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter
+DEBUG   ||----- Finished operation 86 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/style.css - CRC32 = 31750f38 [PHP512]
+DEBUG   ||----- Finished operation 87 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images
+DEBUG   ||----- Finished operation 88 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images
+DEBUG   ||----- Finished operation 89 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/arrow.png - CRC32 = 46690905 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/b-bl.gif - CRC32 = ecf053b7 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/b-br.gif - CRC32 = a71d84db [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/b-tl.gif - CRC32 = 7611aa0c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/b-tr.gif - CRC32 = ab73ab07 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bb-bl.gif - CRC32 = d58e3858 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bb-br.gif - CRC32 = 7a00060b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bb-tl.gif - CRC32 = 136176fc [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bb-tr.gif - CRC32 = d087e364 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bg-bl.gif - CRC32 = 94f369ea [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bg-br.gif - CRC32 = ed06241a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bg-tl.gif - CRC32 = 7ff4d54e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bg-tr.gif - CRC32 = 996d5ef0 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bl-bl.gif - CRC32 = e8950aba [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bl-br.gif - CRC32 = 4763bbd [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bl-tl.gif - CRC32 = 10d8ed2d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bl-tr.gif - CRC32 = bf9a0c2 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/br-bl.gif - CRC32 = 320da6a1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/br-br.gif - CRC32 = 70cfc6b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/br-tl.gif - CRC32 = bdc510b4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/br-tr.gif - CRC32 = 5e1b464b [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bt-bl.gif - CRC32 = 285cf4ab [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bt-br.gif - CRC32 = f3658ec4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bt-tl.gif - CRC32 = 39533a8c [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bt-tr.gif - CRC32 = c4bd02db [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub1-bl.gif - CRC32 = 132f59af [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub1-br.gif - CRC32 = b0edd52 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub1-tl.gif - CRC32 = 6d501931 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub1-tr.gif - CRC32 = cd27d3f1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub2-bl.gif - CRC32 = 494aa7e5 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub2-br.gif - CRC32 = 895795cc [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub2-tl.gif - CRC32 = ede1b116 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub2-tr.gif - CRC32 = ff215169 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub3-bl.gif - CRC32 = 719731a1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub3-br.gif - CRC32 = 5c38644d [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub3-tl.gif - CRC32 = 6d501931 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub3-tr.gif - CRC32 = cd27d3f1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub4-bl.gif - CRC32 = ca40bc4e [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub4-br.gif - CRC32 = 989d7a39 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub4-tl.gif - CRC32 = ede1b116 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/bub4-tr.gif - CRC32 = ff215169 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/c-bg1.gif - CRC32 = 4661c2b3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/c-bg2.gif - CRC32 = 6f33f7b3 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/checklist-bg.gif - CRC32 = 2c3b4f77 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/cw-bg1.gif - CRC32 = 76bae1dd [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/cw-bg2.gif - CRC32 = 892b1c19 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/cwf-bg.gif - CRC32 = c4d16738 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/download-bg.gif - CRC32 = 3758150a [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/icon_list.gif - CRC32 = e9be1188 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/index.html - CRC32 = 6f1d23c9 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/ol-bg.gif - CRC32 = dfda4824 [PHP512]
+DEBUG   ||----- Finished operation 90 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/sc-q.gif - CRC32 = 12bb37ab [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/so-q.gif - CRC32 = e6bb56e4 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/star-bg.gif - CRC32 = 71ee9410 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/styles/background/lighter/images/sticky-bg.gif - CRC32 = a063c7ed [PHP512]
+DEBUG   ||----- Finished operation 91 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/js
+DEBUG   ||----- Finished operation 92 ------
+INFO    ||Scanning files of C:/ServidorWEB/www/gptech/templates/ja_purity/js
+DEBUG   ||----- Finished operation 93 ------
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/js/ja.cssmenu.js - CRC32 = 2fd53774 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/js/ja.moomenu.js - CRC32 = d6639331 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/js/ja.rightcol.js - CRC32 = 46db14c1 [PHP512]
+DEBUG   ||File C:/ServidorWEB/www/gptech/templates/ja_purity/js/ja.script.js - CRC32 = 876b7189 [PHP512]
+DEBUG   ||----- Finished operation 94 ------
+INFO    ||Scanning directories of C:/ServidorWEB/www/gptech/templates/ja_purity/images
+INFO    ||Large directory C:/ServidorWEB/www/gptech/templates/ja_purity/images while scanning for subdirectories; I will resume scanning in next step.
+DEBUG   ||----- Finished operation 95 ------
+DEBUG   ||Successful Smart algorithm on JoomlapackCUBEDomainPack
+DEBUG   ||CUBE :: More work required in domain 'Packing
+DEBUG   ||====== Finished Step number 6 ======
+DEBUG   ||Saving CUBEObject instance
+INFO    ||Removing CUBE temporary file: <root>\tmp\jp993A.tmp
+INFO    ||Creating new CUBEObject storage file: <root>\tmp\jp680E.tmp
+INFO    ||Removing CUBE temporary file: <root>\tmp\jp680E.tmp
+INFO    ||Creating new CUBEObject storage file: <root>\tmp\jp2BAB.tmp
+INFO    ||Removing CUBE temporary file: <root>\tmp\jp2BAB.tmp
+INFO    ||Creating new CUBEObject storage file: <root>\tmp\jp2BBC.tmp
+INFO    ||Removing CUBE temporary file: <root>\tmp\jp2BBC.tmp

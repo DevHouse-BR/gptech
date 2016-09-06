@@ -1,0 +1,3 @@
+EQUIPAMENTO XXX
+http://localhost/gptech/lixo
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nunc lorem, semper venenatis pellentesque sit amet, porttitor vel lectus. Phasellus aliquam venenatis leo nec bibendum. Duis sed ultrices est. Mauris lorem ipsum, porttitor sit amet tristique id, aliquet eget ante. Pellentesque tincidunt mauris interdum neque porttitor sed scelerisque urna blandit.
